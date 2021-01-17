@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.sec1,.sec2,.sec3,.sec4,.sec5,.sec6,.sec7,.sec8{
+	height: 100vh;
+}
+.abc{
+	height: 100px;
+	width: 100px;
+}
+@media(max-width:720px){
+	.sec1,.sec2,.sec3,.sec4,.sec5,.sec6,.sec7,.sec8{
+	height: 50%;
+}
+}
